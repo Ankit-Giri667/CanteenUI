@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FaUtensils, FaShoppingCart, FaClipboardList } from "react-icons/fa";
-import Badge from "./Badge.jsx";
+import Badge from "./Badge.js";
 
 const linkClass = ({ isActive }) =>
   `px-3 py-2 rounded-lg transition ${
